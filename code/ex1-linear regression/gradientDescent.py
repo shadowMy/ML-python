@@ -3,7 +3,7 @@
 import numpy as np
 from computeCost import computeCost
 
-def gradientDescent(X, y, theta, alpha, iters):  # alpha学习率，iters迭代次数
+def gradientDescent(X, y, theta, alpha=0.1, iters=1000):  # alpha学习率，iters迭代次数
     m = len(y)
     '''temp = np.matrix(np.zeros(theta.shape))
     #parameters = int(theta.ravel().shape[1])'''
